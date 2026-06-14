@@ -16,6 +16,22 @@ public class IMC {
        double imc = peso / (altura * altura);
 
         System.out.printf("\nSeu IMC é: %.2f%n", imc);
+
+        if (imc <= 18.5) {
+            System.out.println("Classificação: Abaixo do peso");
+        } else if (imc <= 24.9) {
+            System.out.println("Classificação: Peso ideal");
+        } else if (imc <= 29.9) {
+            System.out.println("Classificação: Levemente acima do peso");
+        } else if (imc <= 34.9) {
+            System.out.println("Classificação: Obesidade Grau I");
+        } else if (imc <= 39.9) {
+            System.out.println("Classificação: Obesidade Grau II (Severa)");
+        } else {
+            System.out.println("Classificação: Obesidade III (Mórbida)");
+        }
+
+        sc.close();
      
      
      

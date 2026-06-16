@@ -1,5 +1,6 @@
 # Exercícios Java
 
+
 Exercícios de lógica de programação em Java desenvolvidos durante os estudos na plataforma **[DIO — Digital Innovation One](https://www.dio.me)**.
 
 ## 📁 Estrutura

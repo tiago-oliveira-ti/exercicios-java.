@@ -15,7 +15,6 @@ public class Divisibilidade {
             System.out.print("Número: ");
             int numero = sc.nextInt();
 
-            // Ignora números menores que o divisor
             if (numero < divisor) {
                 System.out.println("Número ignorado (menor que o inicial).");
                 continue;
